@@ -27,7 +27,7 @@ public class Factorial {
         }
         else {
             int res = 1;
-            for (int i=1; i<n; i++){
+            for (int i=1; i<n+1; i++){
                 res = res * i;
             }
             System.out.print(res);
