@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<GridPane alignment="center" hgap="10" prefHeight="167.0" prefWidth="254.0" vgap="10"
+          xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Button text="hello" onAction="#sayHello" fx:id="buttonClick"/>
+    <TextArea GridPane.RowIndex="1" fx:id="helloWorld" scrollTop="1" minHeight="100"/>
+    <RadioButton text="1" GridPane.columnIndex="1"/>
+    <RadioButton text="2" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Slider GridPane.rowIndex="2" />
+</GridPane>
